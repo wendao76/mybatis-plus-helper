@@ -1,2 +1,5 @@
 /lsp/
 /lsp
+/*.iml
+/.idea
+/target
