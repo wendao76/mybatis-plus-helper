@@ -20,7 +20,7 @@ public class MybatisPlusGenerator {
     // 1. 输出目录
     String outputDir = "E://JavaTemp";
     // 2. 包前缀
-    String basePackage = "com.bosssoft.wx";
+    String basePackage = "com.github.wendao76";
     // 3. 模块前缀
     String moduleName = "common";
     // 4. 表列表
