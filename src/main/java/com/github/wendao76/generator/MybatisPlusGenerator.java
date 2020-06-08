@@ -123,7 +123,7 @@ public class MybatisPlusGenerator {
     PackageConfig pc = new PackageConfig();
     pc.setParent(baseName);
     pc.setController(concat("controller", moduleName));
-    pc.setService("service");
+    pc.setService(concat("service", moduleName));
     pc.setEntity(concat("service", moduleName, "entity"));
     pc.setServiceImpl(concat("service", moduleName, "impl"));
     pc.setMapper(concat("service", moduleName, "mapper"));
@@ -137,7 +137,6 @@ public class MybatisPlusGenerator {
       sb.append(str[i]).append(".");
     }
     int len = sb.length() - 1;
-    System.out.println(sb.toString());
     return sb.toString().substring(0, len);
   }
 
